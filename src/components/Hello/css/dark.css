@@ -1,0 +1,10 @@
+.thing {
+    composes: thing from './index.css';
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+.word {
+    composes: word from './index.css';
+}
